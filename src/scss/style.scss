@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 1350px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+.container-flex{
+  max-width: 1120px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container-flex-fluid{
+  width: 100%;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-center{
+  justify-content: center;
+}
+@font-face {
+  font-family: 'Morebi Rounded';
+  src: url('./../fonts/MorebiRounded-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./../fonts/SFProDisplay-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+$font-family-morebi: "Morebi Rounded",Helvetica,Arial,sans-serif;
+$font-family-sfpro: "SF Pro Display",Helvetica,Arial,sans-serif;
+$font-family-mulish: 'Mulish',Helvetica,Arial,sans-serif;
+$color-white: #ffffff;
+$color-black: #323234;
+$color-lgreen: #A2F21E;
+$color-lgreen-gradient: linear-gradient(95.67deg, #A2F71E -31.66%, #3DE74C 70.81%);
+$color-text-lgreen: #A2F81D;
+$bg-section:#323234;
+$bg-slick-dots:#61EC3C;
