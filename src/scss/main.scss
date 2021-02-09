@@ -32,7 +32,7 @@
   background-color: transparent;
   border: 1px solid $color-lgreen;
   box-sizing: border-box;
-  box-shadow: 0px 8px 20px rgba(162, 170, 192, 0.2);
+  box-shadow: $box-shadow-type2;
   border-radius: 32px;
   margin: 0 15px;
   transition: 0.5s ease;
@@ -137,7 +137,7 @@
   width: 100%;
   height: 100%;
   padding-bottom: 165px;
-  background: #151515;
+  background: $bg-black-type2;
   position: relative;
 }
 .picture__bg{
@@ -242,7 +242,7 @@
   color: $color-white;
 }
 .slider-item__text-mark{
-  color: #63ED3B;
+  color: $color-lgreen-type4;
 }
 .slick-dots{
   li{
@@ -284,12 +284,12 @@
   color: $color-white;
 }
 .global-text__mark{
-  color: #6bd5fb;
+  color: $color-mark;
 }
 .contacts{
   width: 100%;
   height: 100%;
-  background: #0F1218;
+  background: $bg-black-type3;
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -321,7 +321,7 @@ address{
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
-  color: #61EC3C;
+  color: $bg-slick-dots;
 }
 .address__email-link{
   font-family: $font-family-sfpro;
@@ -335,7 +335,7 @@ address{
   &:hover{
     transition: 0.5s ease;
     transform: scale(1.05);
-    color: #61EC3C;
+    color: $bg-slick-dots;
     text-decoration: underline;
   }
 }
@@ -377,7 +377,7 @@ address{
   transition: 0.5s ease;
   &:hover{
     transition: 0.5s ease;
-    color: #61EC3C;
+    color: $bg-slick-dots;
     text-decoration: underline;
   }
 }
@@ -416,7 +416,7 @@ address{
   width: 100%;
   height: 100px;
   border: none;
-  background: #323234;
+  background: $bg-section;
   border-radius: 6px;
   padding-left: 25px;
   font-family: $font-family-sfpro;
@@ -425,7 +425,7 @@ address{
   font-size: 17px;
   letter-spacing: 0.1em;
   text-transform: capitalize;
-  color: #999999;
+  color: $color-grays;
   resize: none;
   margin-top: 18px;
   padding-top: 15px;
@@ -474,7 +474,7 @@ address{
   font-size: 17px;
   letter-spacing: 0.1em;
   text-transform: capitalize;
-  color: #000000;
+  color: $bg-black;
   transition: 0.5s ease;
   border: 2px solid transparent;
   cursor: pointer;

@@ -4,7 +4,7 @@
   height: 100%;
   padding-top: 75px;
   padding-bottom: 25px;
-  background: #000000;
+  background: $bg-black;
 }
 .footer__block{
   margin-right: 120px;
@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
-  color: #323234;
+  color: $color-black;
 }
 .footer-block__link{
   text-decoration: none;
@@ -42,7 +42,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  color: #A1F421;
+  color: $color-lgreen-type2;
   margin: 0;
   padding-top: 25px;
 }

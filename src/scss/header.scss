@@ -96,7 +96,7 @@
   width: 100%;
   height: 100vh;
   padding-top: 260px;
-  background: #000000;
+  background: $bg-black;
   z-index: 2;
   display: none;
 }
@@ -127,7 +127,7 @@
   text-decoration: none;
   &:hover{
     transition: .5s;
-    color: #a2f81d;
+    color: $color-lgreen-type2;
     text-decoration: underline;
   }
 }
@@ -150,7 +150,7 @@
   font-size: 42px;
  line-height: 1.6;
   text-transform: uppercase;
-  color: #4DE845;
+  color: $color-lgreen-type3;
   text-decoration: none;
   transition: 0.3s ease;
   &:hover{
